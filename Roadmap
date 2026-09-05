@@ -1,0 +1,164 @@
+# DEXTR AI Memory — Roadmap
+
+## Vision
+
+DEXTR AI Memory is being developed as proprietary infrastructure for persistent memory in artificial intelligence systems.
+
+The roadmap describes the current development direction of the technology and may be updated as the project evolves, technical validation progresses, and practical requirements become clearer.
+
+---
+
+## Current Status
+
+DEXTR AI Memory is under active development.
+
+The current implementation provides the foundation for persistent AI memory, including local memory, durable logging, asynchronous persistence, backend abstraction, and recovery mechanisms.
+
+The project is currently moving from core engineering and reliability work toward public technical access and preparation for practical use.
+
+---
+
+## Phase 1 — Foundation
+
+**Status: Completed**
+
+The foundation of DEXTR AI Memory has been implemented.
+
+Key elements include:
+
+- canonical Memory API;
+- local in-memory state;
+- backend abstraction;
+- binary write-ahead logging;
+- durable local state;
+- asynchronous persistence;
+- batch write support;
+- recovery from durable state;
+- synchronized memory and persistence operations.
+
+This phase establishes the core architecture on which further development is based.
+
+---
+
+## Phase 2 — Reliability
+
+**Status: In Progress**
+
+The current engineering focus is reliability and validation.
+
+Planned and ongoing work includes:
+
+- extended failure testing;
+- recovery scenario validation;
+- validation of persistence boundaries;
+- validation of WAL replay behavior;
+- synchronization refinement;
+- stability improvements;
+- clarification and verification of durability guarantees;
+- preparation for a stable practical release.
+
+The objective of this phase is to establish predictable behavior when components fail, restart, or temporarily become unavailable.
+
+---
+
+## Phase 3 — Developer Access
+
+**Status: Planned**
+
+The project will begin opening controlled technical access to interested developers and technical teams.
+
+This phase includes:
+
+- public technical documentation;
+- architecture documentation;
+- demonstrations;
+- usage examples;
+- API documentation;
+- technical communication channels;
+- NDA-based access;
+- controlled evaluation access.
+
+The public GitHub repository serves as the entry point for this process.
+
+The objective is to establish communication with developers who are interested in persistent memory for AI systems and to collect practical technical feedback.
+
+---
+
+## Phase 4 — Commercial MVP
+
+**Status: Planned**
+
+Following reliability validation and early technical feedback, the project will move toward a commercial minimum viable product.
+
+Planned work includes:
+
+- stabilization of the public API;
+- preparation of the commercial release;
+- licensing model;
+- access control;
+- product protection mechanisms;
+- deployment options;
+- commercial terms.
+
+The exact commercial configuration will be determined as technical validation and early user requirements develop.
+
+---
+
+## Phase 5 — Early Adoption
+
+**Status: Planned**
+
+The project will move toward initial practical adoption.
+
+The focus will be on:
+
+- individual developers;
+- development teams;
+- pilot projects;
+- early integrations;
+- technical feedback;
+- practical evaluation;
+- first commercial users.
+
+The objective is to validate the technology in real-world AI systems and establish the first sustainable commercial use cases.
+
+---
+
+## Phase 6 — Advanced Memory
+
+**Status: Future**
+
+Further development of DEXTR AI Memory is expected to extend beyond the initial persistent-memory foundation.
+
+Potential directions include:
+
+- more advanced memory management;
+- structured persistent state;
+- advanced mechanisms for long-term AI memory;
+- memory evolution;
+- increasingly intelligent memory management.
+
+Specific implementations will be defined after the preceding stages have been validated.
+
+---
+
+## Phase 7 — DEXTR Infrastructure
+
+**Status: Long-term**
+
+DEXTR AI Memory may become a foundational component of a broader DEXTR infrastructure platform.
+
+The long-term direction may include:
+
+```text
+DEXTR Infrastructure
+        |
+        +-- AI Memory
+        |
+        +-- Storage
+        |
+        +-- API Platform
+        |
+        +-- Developer Platform
+        |
+        +-- Enterprise Infrastructure
