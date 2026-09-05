@@ -1,3 +1,5 @@
+
+
 # DEXTR AI Memory — Roadmap
 
 ## Vision
@@ -162,3 +164,58 @@ DEXTR Infrastructure
         +-- Developer Platform
         |
         +-- Enterprise Infrastructure
+````
+
+This phase is intentionally long-term.
+
+The current priority remains the development, validation, and commercialization of DEXTR AI Memory.
+
+---
+
+## Roadmap Principles
+
+### 1. Engineering before expansion
+
+The project prioritizes a reliable technological foundation before broad expansion.
+
+### 2. Real implementation before public claims
+
+Public materials describe implemented capabilities and validated development stages. Future capabilities are not presented as completed functionality.
+
+### 3. Controlled disclosure
+
+DEXTR AI Memory is proprietary and closed-source.
+
+Public materials provide sufficient information to understand the technology and its direction without disclosing the proprietary implementation.
+
+### 4. Developer feedback
+
+Technical feedback from developers and early users will influence subsequent development priorities.
+
+### 5. Living roadmap
+
+This roadmap is a living document.
+
+Development priorities, stages, and descriptions may change as the technology is tested, refined, and introduced to practical users.
+
+---
+
+## Current Priority
+
+The immediate priority is:
+
+```text
+Reliable AI Memory
+        ↓
+Technical validation
+        ↓
+Developer access
+        ↓
+Early users
+        ↓
+Commercial MVP
+```
+
+DEXTR AI Memory is being developed step by step, with reliability and practical usefulness taking priority over premature expansion.
+
+```
